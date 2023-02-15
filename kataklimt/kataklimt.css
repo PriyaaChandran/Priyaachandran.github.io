@@ -1,0 +1,261 @@
+*{
+   box-sizing: border-box;
+   padding: 0px;
+   margin: 0px;
+   font-family:Arial;
+}
+.kata{
+    width:100%;
+    background-color: white;
+    
+
+}
+.kata1{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content:space-between;
+   
+}
+.logo{
+    width:40%;
+    align-content: flex-start;
+    margin-top: 5PX;
+    padding-left: 0PX;
+}
+
+#red{
+    color: red;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    margin-top: 5PX;
+    padding: 10PX;
+    
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 0PX;
+    margin-left: 0PX;
+    list-style-type: none;
+}
+a{
+    width:100% ;
+    padding: 15px;
+    margin-top: 20PX;
+    margin-bottom: 10PX;
+    text-decoration: none;
+
+}
+a:hover{
+    background-color:red;
+    border-radius:50%;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    
+}
+.black{
+    background-color: black;
+    
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+.row1{
+    width:12%;
+    
+}
+.row2{
+    width:52%;
+    
+}
+.blac{
+    background-color: black;
+    
+
+}
+.a{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    
+
+}
+.b{
+    color:white;
+    width:20%;
+    border-right: 1px solid white;
+    height: 50px;
+}
+.c{
+    color:gainsboro;
+    width:80%;
+    padding: 10px;
+  
+}
+.column1{
+    background-color: black;
+    padding: 20px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+}
+.fashion {
+    width:25%;
+    color:white;
+    
+    
+}
+.Nature{
+    width:25%;
+    color:white;
+    padding: 10px;
+   
+}
+
+.Love{
+    width:25%;
+    color:white;
+    padding: 10px;
+    
+}
+.art{
+    width:25%;
+    color:white;
+    padding: 10px;
+    
+}
+.fashion h3{
+    color:white;
+}
+.fashion h6{
+    color: gray;
+}
+input[type="submit"]{
+    background-color: red;
+    color:white;
+    border-style: none;
+    padding: 5px;
+}
+.Nature h3{
+    color:white;
+}
+.Nature h6{
+    color: gray;
+}
+.Love h3{
+    color:white;
+}
+.Love h6{
+    color: gray;
+}
+.art h3{
+    color:white;
+}
+.art h6{
+    color: gray;
+}
+.short{
+    background-color: black;
+}
+.column2{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding:5px;
+}
+.about{
+    width:50%;
+    color:white;
+}
+.latest{
+    width:50%;
+    color:white;
+}
+.column3{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
+}
+.photo{
+    width:25%;
+}
+.text{
+    width:25%;
+    color:white;
+    padding: 10px;
+}
+.text h6{
+    color:gray;
+}
+.sub{
+    padding: 15px;
+    color: red;
+}
+.bullot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sub1{
+    padding: 15px;
+    color: red;
+    margin: 5px;
+}
+.imagearea{
+    width:50%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.class1{
+    width:25%;
+    padding:10px;
+    
+}
+.footer{
+    background-color: white;
+    
+}
+.media{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}

@@ -1,0 +1,479 @@
+*{              
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;   
+ }
+ .container{
+    background-color:black;
+     }
+     .header{
+        display: flex;
+        flex-wrap: wrap;   
+        width:80%;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+     }
+     .link{
+        width:50%;         
+        color:gray;
+        display: flex;
+        align-items: center;
+        
+     }
+     .envelope{
+        width: 50%;
+        color:gray;
+       text-align: right;
+        
+     }
+     .fa-envelope{
+      margin: 5px;
+      width: 20px;
+     }
+     .fa-phone{
+      margin: 5px;
+     }
+     
+     .envelope img{
+        background-color: white;
+     }
+     .container1{
+        background-color: white;
+        
+        
+     }
+     .header1{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+     }
+     
+     .logo{
+      width:50%;
+      height:55px;
+      
+     }
+     .logo img{
+      height:50px;
+     }
+     .nav{
+      width:50%;
+      
+     
+     }
+     .navbar{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-content: center;
+      list-style-type: none;    
+     }
+     .navbar a{
+     
+      text-decoration: none;
+      color: black;
+      padding:10px 20px;
+      
+     
+     }
+     a:hover{
+    background-color:green;
+    border:50px;
+    height: 10px;
+    width: 20px;
+    padding: 10px;
+    text-align: center;
+     }
+     
+     .row3{
+      background-color: black;
+      width:100%;
+      height:auto;
+      
+     
+       }
+       .bg{
+         width:80%;
+         height:auto;
+         margin-left: 10%;
+         margin-right: 10%;
+         margin-top: 20px;
+         display: flex;
+         flex-wrap: nowrap;
+         align-items: center;
+         justify-content: center;
+                 
+        
+       }
+       .card1{
+         width:31.555555%;
+         height: auto;
+         background-color: rgba(255, 255, 255, 0.64);
+         color:gray;
+         margin: 10px;
+         margin-top: 50px;
+         margin-bottom: 50px;
+         
+         
+       }
+       .card2{
+         width:31.555555%;
+         height: auto;
+         background-color: white;
+         color:gray;
+         margin: 10px;
+         margin-top: 50px;
+         margin-bottom: 50px;
+
+
+       }
+       .card1 h2{
+         background-color: gray;
+         color:black;
+         text-align: center;
+         padding: 10px;
+       }
+       .card1 p{
+         text-align: center;
+         font-family:Arial;
+         padding: 10px;
+         height:150px;
+       }
+    .read{
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      background-color:green;
+      color: white;
+      padding: 10px;
+   
+    }
+    .card2 h2{
+      background-color:gray;
+      color:black;
+      text-align: center;
+      padding: 10px;
+    }
+    .card2 p{
+      text-align: center;
+      font-family:Arial;
+      padding: 10px;
+      height:150px;
+    }
+    .row4{
+      background-color: white;
+      height:auto;
+      padding-bottom: 30PX;
+      
+      
+    }
+    .col1{
+      width:80%;
+      display:flex;
+      flex-wrap: wrap ;
+      justify-content: space-between;
+       margin-left: 10%;
+       margin-right: 10%;
+       margin-top: 30px;
+       padding-top: 20px;
+       padding-bottom: 20px;
+       
+
+          }
+          
+. a{
+   width:48%;
+   
+}
+.b{
+   width:48%;
+   
+} 
+.col2{
+   width:80%;
+   height:auto;
+   display:flex;
+   margin: 10px;
+   margin-left: 10%;
+   margin-right: 10%;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+  
+}
+.img{
+   width:48%;
+   
+     }
+     
+        
+   .inside{
+      width: 100%;
+      height:500px;
+      background-image: url("pic1.jpg");
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      ;
+     }
+     .inside div{
+      color: white;
+      text-align: center;
+      height:100px;
+      padding-top: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+     }
+   .inside button{
+      border: 1px solid green;
+      color:green;
+      padding: 10px;
+      background-color: black;
+   }
+   .threesub{
+      width:48%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: wrap;
+      
+      
+      
+   }
+   .ins-row1{
+      
+      height:150px;
+      display: flex;
+      padding: 10px;
+      
+      
+   }
+   .img1{
+      width:40%;
+      background-image: url("pic1.jpg");
+    margin: 10px;
+   border: 2px black;
+   border-style: inset;
+   }
+   .contant{
+      width:60%;
+      
+   }
+   #green{
+      color:green;
+   }
+   .content button{
+      background-color: white;
+      border: 1px solid green;
+      color: green;
+      padding: 10px;
+   }
+   .new{
+      border-bottom: 1px solid gray;
+   }
+   .new{
+      border-top: 1px solid gray;
+   }
+   .offwhite{
+      background-color: lightgray;
+      padding-bottom: 30px;
+   }
+   .don{
+      width:80%;
+      margin-right: 10%;
+      margin-left:10%;
+      text-align: center;
+      color: black;
+      padding-top: 30PX;
+      padding-bottom: 30PX;
+   }
+  .two{
+   width:80%;
+   margin-left: 10%;
+   margin-right: 10%;
+   display: flex;
+   justify-content: space-between; 
+   
+
+  }
+  .grid{
+   width:48%;
+   display: flex;
+   flex-wrap: wrap;
+
+
+
+  }
+  .img2{
+   width:50%;
+   background-image: url("pic1.jpg");
+   border: 1px solid black;
+
+  }
+  .Qui{
+   width: 50%;
+   padding: 10px;
+   background-color:orange;
+   color: white;
+  }
+  .Qui button{
+   background-color: orange;
+   color: white;
+   padding: 5px;
+   border: 1px solid white;
+  }
+  .Qui h3{
+   padding-top: 10px;
+   padding-bottom: 10px;
+  }
+  .grid1{
+   width:48%;
+   display: flex;
+   flex-wrap: wrap;
+
+
+
+  }
+  .img3{
+   width:50%;
+   background-image: url("pic1.jpg");
+   border: 1px solid black;
+
+  }
+  .Qui1{
+   width: 50%;
+   padding: 10px;
+   background-color: skyblue;
+   color: white;
+  }
+  .Qui1 button{
+   background-color: skyblue;
+   color: white;
+   padding: 5px;
+   border: 1px solid white;
+  }
+  .Qui1 h3{
+   padding-top: 10px;
+   padding-bottom: 10px;
+  }
+  .black1{
+   background-color: black;
+   padding-top: 30px;
+   padding-bottom: 30px;
+  }
+  .lastrow{
+   width:80%;
+   margin-left: 10%;
+   margin-right: 10%;
+   display: flex;
+   justify-content: space-between;
+  }
+  .lorem{
+   width:48%;
+   color:gray;
+   
+  }
+  .lorem h3{
+   padding-top: 10px;
+   border-bottom: 1px solid black;
+   
+}
+ .lorem p{
+   padding-top: 10px;
+ } 
+ .fa-location-dot{
+   padding-top:5px;
+   font-size:x-small;
+ }
+ .fa-phone{
+   padding-top:5px;
+   font-size:x-small;
+ } 
+ .fa-envelope{
+   padding-top:5px;
+   font-size:x-small;
+ }
+ .links{
+   width:48%;
+   display: flex;
+   justify-content: space-between;
+   
+ }
+ .quick{
+   width:50%;
+   color:gray;
+
+ }
+ .quick h3{
+   border-bottom: 1px solid black;
+ }
+ .keep{
+   width:50%;
+   color:gray;
+   padding-left: 10px;
+ }
+ .quick p{
+   color:green;
+ }
+ .keep h3{
+   border-bottom: 1px solid black;
+ }
+ .keep input{
+   background-color: black;
+   color:lightgrey;
+   border:1px solid transparent;
+ }
+  .green{
+   background-color: green;
+   color:white;
+   padding: 10px;
+ }
+ .icon{
+   background-color:black;
+   padding: 5px;
+   
+   
+   
+ }
+ .fa-facebook{
+   width:20px;
+   height: 10px;
+   margin: 5px;
+   color:gray
+ }
+ .fa-twitter{
+   width:20px;
+   height: 10px;
+   margin: 5px;
+   color:gray
+ }
+ .fa-linkedin{
+   width:20px;
+   height: 10px;
+   margin: 5px;
+   color:gray
+
+ }
+ .fa-pinterest-p{
+   width:20px;
+   height: 10px;
+   margin: 5px;
+   color:gray
+ }
+ .footer{
+   background-color: black;
+ }
+ .copy{
+   width:80%;
+   margin-left: 10%;
+   margin-right: 10%;
+   color: gray;
+   padding-bottom: 20px;
+ }

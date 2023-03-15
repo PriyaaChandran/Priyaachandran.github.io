@@ -1,0 +1,606 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.container{
+    dixplay:grid;
+
+}
+.leftcontainer{
+    width:25%;
+    height: 100vh;
+    position: fixed;
+    background-color: gray;
+}
+.rightarea{
+    width:75%;
+    margin-left: 25%;
+
+}
+.right{
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 55vh;
+}
+
+.logo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.nav{
+    width:100%;
+}
+.navbar{
+    display: grid;
+    grid-template-rows: 30px 30px 30px 30px 30px;
+    row-gap: 1px;
+   
+}
+.navbar li{
+    list-style: none;
+    text-align: center;
+    background-color:black;
+    padding:10px 0;
+    font-size: 13px;
+    color: white;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    
+}
+.border-1{
+    border-left: 3px solid rgb(0, 17, 255);
+}
+.border-1 a:hover{
+    color: rgb(0, 42, 255) ;
+}
+
+.border-2{
+    border-left: 3px solid rgb(249, 169, 21);
+}
+.border-2 a:hover{
+    color: rgb(249, 169, 21) ;
+}
+.border-3{
+    border-left: 3px solid rgb(245, 18, 245);
+}
+.border-3 a:hover{
+    color: rgb(245, 18, 245) ;
+}
+.border-4{
+    border-left: 3px solid rgb(21, 249, 51);
+}
+.border-4 a:hover{
+    color:rgb(21, 249, 51) ;
+}
+.border-5{
+    border-left: 3px solid rgb(246, 5, 134);
+}
+.border-5 a:hover{
+    color: rgb(246, 5, 134) ;
+}
+
+
+
+.right{
+    display: grid;
+    color: white;
+    grid-template-rows: 30px 30px 30px;
+    align-content: center;
+    row-gap: 40px;
+    justify-content: center;
+}
+.tittle{
+    text-align: center;
+    margin: 20px;
+
+}
+.sub{
+    text-align: center;
+}
+.btn{
+   
+   
+   display: inline-grid;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+     
+}
+button{
+    position: relative;
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px 20px;
+    font-weight: bold;
+    cursor:pointer;
+    overflow: hidden;
+    border: none;
+    color: white;
+    background-color: blue;
+}
+.row1{
+    width:75%;
+    margin-left: 25%;
+    background-color: white;
+    padding-bottom: 20px;
+}
+.welcome{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    display:grid;
+    grid-template-rows: 30px 30px 30px;
+    justify-content: center;
+    align-content: center;
+    row-gap: 10px;
+    
+    padding: 30px;
+    
+
+
+}
+.welcome h3{
+    color:skyblue;
+    text-align: center;
+}
+.welcome p{
+    text-align: center;
+    font-size: 15px;
+}
+.welcome span{
+    color: skyblue;
+}
+
+.about p{
+    height:2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: orange;
+}
+.aboutus{
+    display: inline-block;
+    background-color: orange;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px;
+    color:white;
+    
+}
+.image{
+    width:75%;
+    margin-left: 25%;
+    background-color: white;
+    
+   }
+   .row2{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 300px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .col1 img{
+    width:100%;
+    height:200px;
+   }
+   .col1 h3{
+    color:brown;
+    text-align: center;
+   }
+   .col1 p{
+    text-align: center;
+       }
+   .main{
+    width:75%;
+    margin-left: 25%;
+    background-color: white;
+    
+   }    
+   .row3{
+     display:grid;
+     margin-left: 10%;
+     margin-right: 10%;
+     padding-top: 20px;
+     padding-bottom: 50px;
+     grid-template-rows: 50px;
+     
+     
+     
+   }
+.team p{
+    color:brown;
+}
+.set{
+    display: grid;
+    grid-template-columns: 64% 32%;
+    justify-content: space-between;
+} 
+.comp{
+    display: grid;
+    justify-content: end;
+    
+}
+.comp img{
+    width:50%;
+    height: 200px;
+}
+.row4{
+    display: grid;
+}
+
+.service p{
+    height: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: blueviolet;
+}   
+.ser p{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+}
+.logo1{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows: 200px;
+    justify-content: space-between;
+    align-items: center;
+    
+margin-top: 10px;
+    margin-bottom: 10px;
+}
+.col2{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: blueviolet;
+    padding: 20px;
+    text-align:center;
+    color:white;
+}
+.col3{
+    padding: 5px;
+}
+.col3 i{
+    font-size: 30px;
+}
+.skil{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns:66% 32%;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.para h3{
+    color:blueviolet;
+    font-size: larger;
+    padding-bottom: 20px;
+    
+
+}
+.para p{
+    line-height: 1.5;
+}
+.com{
+    display: grid;
+    grid-template-rows: 30px 30px 30px 30px;
+    row-gap: 10px;
+   
+}
+.box{
+    width:280px;
+    height:20px;
+    background-color: lightgrey;
+    border:1px solid transparent;   
+
+}
+.line1{
+    width: 90%;
+    height: 20px;
+    color: white;
+    text-align: center;
+    background-color: blueviolet;
+    transform-origin: left;
+    animation: grow 4s forwards;
+}
+@keyframes grow{
+    0%{
+        transform: scaleX(0.1);
+    }
+    31%{
+        transform: scaleX(1.2);
+    }
+}
+.line2 {
+    width:75%;
+    height: 20px;
+    color: white;
+    text-align: center;
+    background-color: blueviolet;
+    transform-origin: left;
+    animation: grow 4s forwards;
+    
+}
+@keyframes grow{
+    0%{
+        transform: scaleX(0.1);
+    }
+    31%{
+        transform: scaleX(1.2);
+    }
+}
+.line3 {
+    width:66%;
+    height: 20px;
+    color: white;
+    text-align: center;
+    background-color: blueviolet;
+    transform-origin: left;
+    animation: grow 4s forwards;
+    
+}
+@keyframes grow{
+    0%{
+        transform: scaleX(0.1);
+    }
+    31%{
+        transform: scaleX(1.2);
+    }
+}
+.line4 {
+    width:88%;
+    height: 20px;
+    color: white;
+    text-align: center;
+    background-color: blueviolet;
+    transform-origin: left;
+    animation: grow 4s forwards;
+    
+}
+@keyframes grow{
+    0%{
+        transform: scaleX(0.1);
+    }
+    31%{
+        transform: scaleX(1.2);
+    }
+}
+.folio{
+    display: grid;
+}
+.cls1 p{
+    height: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: green;
+}   
+.cls2 p{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+    background-color: rgb(14, 74, 14);
+    padding: 15px;
+    color: white;
+}
+.lsimg{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+   
+}
+.img1{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows:200px;
+    gap:17px;
+   
+    
+}
+.col6 img{
+    width:100%;
+    height:200px;
+    
+    
+   }
+   .col6 h3{
+    color:green;
+    text-align: center;
+   }
+   .img2{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-rows:200px;
+    padding-top: 50PX;
+    gap:17px;
+    
+    
+}
+.col7 img{
+    width:100%;
+    height:200px;
+    
+    
+   }
+   .col7 h3{
+    color:green;
+    text-align: center;
+   }
+   .read{  
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 50px;
+   }
+   .read button{
+    position: relative;
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px 20px;
+    font-weight: bold;
+    cursor:pointer;
+    overflow: hidden;
+    border-bottom: 5px solid darkgreen;
+    color: white;
+    background-color:green;
+   }
+   .row6{
+    display: grid;
+}
+
+.service1 p{
+    height: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(232, 9, 139);
+}   
+.ser1 p{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+    background-color:rgb(232, 9, 139);
+    padding: 10px;
+    color: white;
+}
+.col8{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.form{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.temp{
+    display:grid;
+    grid-template-columns: 32% 32% 32%;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    column-gap: 17px;
+   
+
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    resize: vertical;
+  }
+ .lable span{
+    color:rgb(220, 11, 164)
+ }
+ .message{
+    display: grid;
+    grid-template-columns: 100%;
+    padding-bottom: 20px;
+ }  
+ .message p{
+    padding-bottom: 10px;
+ }
+ .textarea{
+border-radius: 4px;
+border: 1px solid grey;
+ }
+ .pink{
+    margin-left: 10%;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+ }
+ .aid{
+margin: 0;
+    display: inline-block;
+   width: 110px;
+    background-color: rgb(230, 15, 147);
+    border: 1px solid pink;
+    border-bottom: 5px solid rgb(224, 17, 158);
+ }
+ .gray{
+    background-color:black;
+    height:200px;
+ }
+ .five{
+    background-color: grey;
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 30px 30px 30px 30px 30px;
+    justify-content: center;
+    gap: 2px;
+    align-items: center;
+    margin-left: 2%;
+ }
+ .fa-facebook{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid black;
+ }
+ .fa-twitter{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid black;
+    
+ }
+ .fa-linkedin{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid black;
+ }
+ .fa-empire{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid black;
+ }
+ .fa-wifi{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid black;
+ }
+ .copy{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+ }
+ .copy p{
+    color:gray;
+    padding-top: 40px;
+ }
+ .copy span{
+    color:white;
+ }
